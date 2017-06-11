@@ -20,7 +20,9 @@ curl -T $TGTD$OF --user username:password https://webdav.yandex.ru/
 # для того чтобы сделать исполняемым и запустить требуется выполнить эти команды:
 
 cd ~/Загрузки
+
 chmod +x backup-script.sh
+
 ./backup-script.sh
 
 #  по желанию добавить в cron (стандартный планировщик linux)
